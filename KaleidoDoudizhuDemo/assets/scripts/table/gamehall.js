@@ -93,7 +93,8 @@ cc.Class({
             //cc.dgame.settings.game_nodes = JSON.stringify(['enode://78afd98ec657a7320cb984ffc7c701ef439f717e1267b43fee7c8101e08939cafb2d7518eef69d4a0b982b5f206416036397f513b7817186249064063f4ce8d2@192.168.0.213:38883']);
             //cc.dgame.settings.game_nodes = JSON.stringify(['enode://3e256d081ca0bad611b3384058028f1640459f5d956f48644ccb37942ae7bbf9e06a15e6ed69a504a937d03e2be690c7e8e60372588bc3babc3caf4f663d4e95@106.75.184.214:38883']);
             //cc.dgame.settings.game_nodes = JSON.stringify(['enode://d75a7f554e4bff18cb10bcee2c46c6940ab6ccbbeb1409828cc9fb2a0707dd4b115c6559243c141a2f8019e2b90b6feec24097ad249b5475362be9af3d94267c@128.1.133.161:38883']);
-            cc.dgame.settings.game_nodes = JSON.stringify(['enode://5b80ec4ffcc7054f8d22bbb946a78457975c6cc1c187f9261dea83bf4099091921ac9b64837f0e7d74c8b976a7d4ba28bdfb0c54bb1196e301f8ec3aa7c2aa1f@106.75.184.214:38883']);
+            cc.dgame.settings.game_nodes = JSON.stringify(['enode://5b80ec4ffcc7054f8d22bbb946a78457975c6cc1c187f9261dea83bf4099091921ac9b64837f0e7d74c8b976a7d4ba28bdfb0c54bb1196e301f8ec3aa7c2aa1f@106.75.184.214:8546']);	//主网
+            //cc.dgame.settings.game_nodes = JSON.stringify(['enode://9a094a1f7b42b440368be84498de61111a322eb23d3c4490cbd6dc4340477aba84d7fcf4a6b433567fed502650e87029452fbc065990a330007b10f064f53166@106.75.184.214:8548']);	//测试网
             this.runGame()
         }
     },
