@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.0",
+  "uuid": "18c89c38-b505-401a-8143-578846c9e44b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "img_lordland": {
+      "ver": "1.0.3",
+      "uuid": "3142e31a-f98f-4708-bf47-f9b447d8c775",
+      "rawTextureUuid": "18c89c38-b505-401a-8143-578846c9e44b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 78,
+      "height": 78,
+      "rawWidth": 78,
+      "rawHeight": 78,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

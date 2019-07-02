@@ -1,0 +1,9 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "ethereumjs-util": "^6.1.0",
+    "truffle-hdwallet-provider": "^1.0.10",
+    "web3": "^0.20.7"
+  }
+}

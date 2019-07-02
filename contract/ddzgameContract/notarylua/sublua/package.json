@@ -1,0 +1,6 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.10"
+  }
+}
