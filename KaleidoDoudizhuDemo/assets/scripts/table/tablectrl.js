@@ -701,20 +701,7 @@ cc.Class({
     },
 
     onLeaveTable: function(data) {
-        if (this.playerInfo !== null) {
-            this.playerInfo.needFastjoin = true
-        }
-        var temp = parseInt(cc.dgame.gameplay.tableid)
-        if (!isNaN(temp)) {
-            cc.dgame.net.removeEventListener(["leave"])
-            cc.dgame.net.removeEventListener(["ready"])
-            cc.dgame.net.removeEventListener(["startGame"])
-            cc.dgame.net.removeEventListener(["gameEvent"])
-            cc.dgame.net.removeEventListener(["settle"])
-            cc.dgame.net.removeEventListener(["allotTable"])
-            cc.dgame.gameplay.tableid = ""
-        }
-        cc.director.loadScene('gamehall')
+        console.log('[onLeaveTable]', JSON.stringify(data))
     },
 
     // 退出房间
@@ -813,7 +800,7 @@ cc.Class({
 
     // Leave事件响应函数
     onLeave: function(data) {
-        cc.log(data)
+        console.log('[onLeave]', JSON.stringify(data))
         this.playerInfo.needFastjoin = true
         var temp = parseInt(cc.dgame.gameplay.tableid)
         if (!isNaN(temp)) {
@@ -837,6 +824,9 @@ cc.Class({
         this.unschedule(this.waitForStart)
         this.waitCount = 0
         this.operatePanel.showStart()
+        if (data.Addr.toLowerCase() == cc.dgame.gameplay.selfaddr.toLowerCase()) {
+            cc.director.loadScene('GameHall')
+        }
     },
 
     // Ready事件响应函数
